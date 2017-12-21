@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QKSMS</string>
+
+    <string-array name="background_values">
+        <item>light</item>
+        <item>grey</item>
+        <item>black</item>
+    </string-array>
+
+    <string-array name="enter_button_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

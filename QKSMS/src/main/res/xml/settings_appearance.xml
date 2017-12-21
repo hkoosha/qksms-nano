@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:layout="@layout/list_item_preference_category"
+        android:title="@string/pref_subcat_theme">
+        <Preference
+            android:defaultValue="-16746133"
+            android:key="pref_key_theme"
+            android:layout="@layout/list_item_preference"
+            android:summary="@string/pref_theme_summary_alt"
+            android:title="@string/pref_theme" />
+        <ListPreference
+            android:defaultValue="light"
+            android:entries="@array/background_titles"
+            android:entryValues="@array/background_values"
+            android:key="pref_key_background"
+            android:layout="@layout/list_item_preference"
+            android:summary="@string/pref_background_summary"
+            android:title="@string/pref_background" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_category_appearance_system_bars"
+        android:layout="@layout/list_item_preference_category"
+        android:title="@string/pref_subcat_system_bars">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_key_status_tint"
+            android:layout="@layout/list_item_preference"
+            android:title="@string/pref_status_tint"
+            android:widgetLayout="@layout/view_switch" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_navigation_tint"
+            android:layout="@layout/list_item_preference"
+            android:title="@string/pref_navigation_tint"
+            android:widgetLayout="@layout/view_switch" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/list_item_preference_category"
+        android:title="@string/pref_category_general">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_message_count"
+            android:layout="@layout/list_item_preference"
+            android:summary="@string/pref_message_count_summary"
+            android:title="@string/pref_message_count"
+            android:widgetLayout="@layout/view_switch" />
+    </PreferenceCategory>
+</PreferenceScreen>

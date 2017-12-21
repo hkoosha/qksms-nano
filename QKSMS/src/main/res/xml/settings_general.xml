@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:layout="@layout/list_item_preference_category"
+        android:title="@string/pref_delayed">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_delayed"
+            android:layout="@layout/list_item_preference"
+            android:summary="@string/pref_delayed_summary"
+            android:title="@string/pref_delayed"
+            android:widgetLayout="@layout/view_switch" />
+        <EditTextPreference
+            android:defaultValue="3"
+            android:dependency="pref_key_delayed"
+            android:inputType="number"
+            android:key="pref_key_delay_duration"
+            android:layout="@layout/list_item_preference"
+            android:summary="@string/pref_delayed_duration_summary"
+            android:title="@string/pref_delayed_duration" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/list_item_preference_category"
+        android:title="@string/pref_delivery">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_delivery"
+            android:layout="@layout/list_item_preference"
+            android:summary="@string/pref_delivery_summary"
+            android:title="@string/pref_delivery"
+            android:widgetLayout="@layout/view_switch" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/list_item_preference_category"
+        android:title="@string/pref_text">
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/list_item_preference_category"
+        android:title="@string/pref_category_general">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_sent_timestamps"
+            android:layout="@layout/list_item_preference"
+            android:summary="@string/pref_sent_timestamps_summary"
+            android:title="@string/pref_sent_timestamps"
+            android:widgetLayout="@layout/view_switch" />
+        <EditTextPreference
+            android:defaultValue="60"
+            android:dependency="pref_key_force_timestamps"
+            android:inputType="number"
+            android:key="pref_key_timestamp_delay"
+            android:layout="@layout/list_item_preference"
+            android:summary="@string/pref_key_timestamp_delay_summary"
+            android:title="@string/pref_key_timestamp_delay" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:disableDependentsState="true"
+            android:key="pref_key_force_timestamps"
+            android:layout="@layout/list_item_preference"
+            android:summary="@string/pref_force_timestamps_summary"
+            android:title="@string/pref_force_timestamps"
+            android:widgetLayout="@layout/view_switch" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/list_item_preference_category"
+        android:title="@string/pref_category_quickreply">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_key_quickreply_enabled"
+            android:layout="@layout/list_item_preference"
+            android:summary="@string/pref_quickreply_enabled_summary"
+            android:title="@string/pref_quickreply_enabled"
+            android:widgetLayout="@layout/view_switch" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_key_quickreply_dismiss"
+            android:layout="@layout/list_item_preference"
+            android:summary="@string/pref_tap_to_quit_summary"
+            android:title="@string/pref_tap_to_quit"
+            android:widgetLayout="@layout/view_switch" />
+    </PreferenceCategory>
+</PreferenceScreen>

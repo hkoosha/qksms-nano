@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="backgroundColor" format="color" />
+
+    <declare-styleable name="QKLinearLayout">
+        <attr name="backgroundTint" />
+    </declare-styleable>
+
+    <attr name="type">
+        <flag name="primary_bold" value="0" />
+        <flag name="primary" value="1" />
+        <flag name="secondary" value="2" />
+        <flag name="tertiary" value="3" />
+        <flag name="pref_category" value="4" />
+        <flag name="dialog_title" value="5" />
+        <flag name="dialog_message" value="6" />
+        <flag name="dialog_button" value="7" />
+        <flag name="toolbar" value="8" />
+    </attr>
+
+    <declare-styleable name="QKTextView">
+        <attr name="type" />
+    </declare-styleable>
+</resources>

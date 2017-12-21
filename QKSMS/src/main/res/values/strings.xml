@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <!--Hint for contacts text field-->
+    <string name="hint_contacts">Enter recipients</string>
+    <!--Hint for search text field-->
+    <string name="hint_search">Search something</string>
+    <!--Hint for message reply text field-->
+    <string name="hint_reply">Enter a message</string>
+
+    <!--Text shown for single new message in notification-->
+    <string name="new_message">New message</string>
+    <!--Text shown after number of unread messages in notification (ex. 3 new messages)-->
+    <string name="new_messages">new messages</string>
+    <!--Text shown for single failed message in notification-->
+    <string name="failed_message">Message failed to send</string>
+    <!--Text shown after number of failed messages in notification (ex. 3 messages failed to send)-->
+    <string name="failed_messages">messages failed to send</string>
+    <!--Text shown under failed message count-->
+    <string name="failed_messages_summary">Tap to view</string>
+
+    <!--Settings option in menu-->
+    <string name="menu_settings">Settings</string>
+    <!--Search option in menu-->
+    <string name="menu_search">Search</string>
+    <!--Show full conversation in QuickReply-->
+    <string name="menu_show_all">Show all messages</string>
+    <!--Show only unread messages in QuickReply-->
+    <string name="menu_show_unread">Show unread messages</string>
+    <!--Open conversation option in menu (shown in QuickReply)-->
+    <string name="menu_open_thread">Open conversation</string>
+    <!--Forward message option in menu-->
+    <string name="menu_forward">Forward message</string>
+    <!--Call contact option in menu-->
+    <string name="menu_call">Call</string>
+    <!--Mark a message/conversation as read option in menu-->
+    <string name="menu_read">Mark as read</string>
+    <!--Delete a message option in menu-->
+    <string name="menu_delete">Delete</string>
+    <!--Copy text option in menu-->
+    <string name="menu_copy">Copy text</string>
+
+
+    <string name="pref_category_appearance">Appearance</string>
+    <string name="pref_category_summary_appearance">Themes, colors, and more</string>
+    <string name="pref_category_general">General</string>
+    <string name="pref_category_summary_general">Delivery, message sending, formatting</string>
+    <string name="pref_category_notifications">Notifications</string>
+    <string name="pref_category_summary_notifications">Sounds, LED, privacy</string>
+    <string name="pref_category_quickreply">QK Reply</string>
+    <string name="pref_category_about">About</string>
+    <string name="pref_category_summary_about">Version, changelog, authors, thanks</string>
+    <string name="pref_category_blocking">Message Blocking</string>
+    <string name="pref_category_summary_blocking">Block assholes sending spam and do it smartly!</string>
+
+    <string name="pref_theme">Theme color</string>
+    <string name="pref_theme_summary_alt">Tap to change theme</string>
+    <string name="pref_status_tint">Tinted status bar</string>
+    <string name="pref_navigation_tint">Tinted navigation bar</string>
+    <string name="pref_background">Background color</string>
+    <string name="pref_background_summary">Tap to change background color</string>
+    <string name="pref_message_count">Message count</string>
+    <string name="pref_message_count_summary">Show the number of messages for each conversation</string>
+
+    <string name="pref_sent_timestamps">Sent timestamps</string>
+    <string name="pref_sent_timestamps_summary">Show the timestamp for when a message was sent, not received</string>
+    <string name="pref_force_timestamps">Force timestamps</string>
+    <string name="pref_force_timestamps_summary">Enable timestamps for all messages</string>
+    <string name="pref_key_timestamp_delay">New timestamp delay</string>
+    <string name="pref_key_timestamp_delay_summary">The number of minutes which must elapse between two messages in order for a new timestamp to be shown.</string>
+    <string name="pref_delivery">Delivery confirmations</string>
+    <string name="pref_delivery_summary">Confirm that messages were sent successfully</string>
+    <string name="pref_blocked_conversations">Blocked conversations</string>
+    <string name="pref_blocked_conversations_summary">Long-press on a conversation and block to move to blocked inbox and stop notifications</string>
+    <string name="pref_block_future">Block future messages</string>
+    <string name="pref_block_future_summary">Add additional phone numbers to block</string>
+    <string name="pref_text">Text</string>
+
+    <string name="pref_led">Notification LED</string>
+    <string name="pref_wake">Wake phone</string>
+    <string name="pref_wake_summary">Turn your screen on when you receive a new message</string>
+    <string name="pref_notifications_private">Private notifications</string>
+    <string name="pref_notifications_private_summary">Tap to change what should be hidden in notification</string>
+    <string name="pref_ticker">Show ticker</string>
+    <string name="pref_ticker_summary">Shows snippet of new message in notification bar</string>
+    <string name="pref_vibration">Vibration</string>
+    <string name="pref_vibration_summary">Vibrate when new messages are received</string>
+    <string name="pref_notification_call">Call button</string>
+    <string name="pref_notification_call_summary">Call the sender of a message right from the notification</string>
+    <string name="pref_dimiss_read">Mark as read</string>
+    <string name="pref_dismiss_read_summary">Mark message as read when notification is cleared</string>
+
+    <string name="pref_delayed">Delayed messaging</string>
+    <string name="pref_delayed_summary">Wait before sending your messages, so you have a chance to review them</string>
+    <string name="pref_delayed_duration">Delay length (seconds)</string>
+    <string name="pref_delayed_duration_summary">Time to wait before sending your message</string>
+
+    <string name="pref_quickreply_enabled">QK Reply enabled</string>
+    <string name="pref_quickreply_enabled_summary">Show QK Reply window whenever a new message is received</string>
+    <string name="pref_tap_to_quit">Tap to dismiss</string>
+    <string name="pref_tap_to_quit_summary">Tap anywhere outside of the window to close it</string>
+
+
+    <string name="pref_about_version_title">QKSMS version</string>
+
+    <!--Preference subcategory-->
+    <string name="pref_subcat_theme">Theme</string>
+    <!--Preference subcategory-->
+    <string name="pref_subcat_system_bars">System bars</string>
+    <!--Preference subcategory-->
+    <string name="pref_subcat_categories">Categories</string>
+    <!--Preference subcategory-->
+
+    <string name="title_settings">Settings</string>
+    <string name="title_search">Search</string>
+    <string name="title_compose">Compose</string>
+    <string name="title_conversation_list">Conversations</string>
+    <string name="title_blocked">Blocked</string>
+    <string name="title_block_address">Block number</string>
+    <string name="title_conversations_selected">%s selected</string>
+    <string name="title_palette">Palette</string>
+
+    <!-- Menu shown in the context menu when long pressing on a message when the message contains
+         one or more phone numbers and/or email addresses and the number or email is new to
+         contacts. [CHAR LIMIT=50] -->
+    <string name="menu_add_address_to_contacts">Add <xliff:g id="contactEmailOrNumber">%s</xliff:g> to People</string>
+
+    <!-- Context menu item on an individual message for viewing message details such as time and date -->
+    <string name="view_message_details">View details</string>
+    <!-- Context menu item on an individual message for viewing a delivery report -->
+    <string name="view_delivery_report">View report</string>
+    <!-- Context menu item on an individual message for deleting only that message -->
+    <string name="delete_message">Delete</string>
+    <!-- Abbreviation for "kilobyte" -->
+
+    <!-- Individual message context menu item -->
+    <string name="copy_message_text">Copy text</string>
+    <!-- Header for context menu on an individual message -->
+    <string name="message_options">Message options</string>
+
+    <!-- Title of "Report" window -->
+    <string name="delivery_header_title">Report</string>
+
+    <!--Dialog title for asking if a user wants to delete a conversation-->
+    <string name="delete_conversation">Delete conversations</string>
+    <!--Dialog title for asking if a user wants to delete all failed messages-->
+    <string name="delete_all_failed">Delete failed messages</string>
+    <!--CDialog title for asking if a user wants to delete a conversation-->
+    <string name="delete_confirmation">Are you sure you would like to delete (%s) conversations?</string>
+    <!--CDialog title for asking if a user wants to delete all failed messages-->
+    <string name="delete_all_failed_confirmation">Are you sure you would like to delete failed messages from (%s) conversations?</string>
+
+    <!-- Dialog message text explaining that a draft message will not be saved due to invalid recipients -->
+    <string name="discard_message_reason">Your message will be discarded because it has no valid recipients.</string>
+
+
+    <!--Notification action to reply to a message-->
+    <string name="reply">Reply</string>
+    <!--Notification action to mark a message as read-->
+    <string name="read">Read</string>
+    <!--Notification action to mark a message as read-->
+    <string name="mark_read">Mark as read</string>
+    <!--Notification action to call the sender of a message-->
+    <string name="call">Call</string>
+    <!--Positive action button-->
+    <string name="yes">Yes</string>
+    <string name="add">Add</string>
+    <!--Positive action button-->
+    <string name="save">Save</string>
+    <!--Positive action button-->
+    <string name="enable">Enable</string>
+    <!--Positive action button-->
+    <string name="upgrade_now">Set now</string>
+    <!--Positive action button-->
+    <string name="okay">Okay</string>
+    <!--Positive action button-->
+    <!--Neutral action button-->
+    <string name="just_once">Just once</string>
+    <!--Neutral action button-->
+    <!--Neutral action button -->
+    <string name="cancel">Cancel</string>
+    <!-- Name of the local user when displaying sender of an outgoing message (personal pronoun) -->
+    <string name="messagelist_sender_self">Me</string>
+    <!-- Subject to display in the conversation list if there is no subject -->
+    <string name="no_subject_view">(No subject)</string>
+    <!-- Word represents 'self' in a conversation -->
+    <string name="me">Me</string>
+
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete_failed">Delete failed messages</string>
+    <string name="menu_lock">Lock</string>
+    <string name="menu_unlock">Unlock</string>
+
+    <!-- When the user tries to view message details and some error occurs while
+         retrieving those details, this message will be shown. -->
+    <!-- Title of "Message details" dialog -->
+    <string name="message_details_title">Message details</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_type_label">Type\u000A</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="text_message">Text message</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <!-- "Type" value in "Message details" dialog -->
+    <!-- Label in "Message details" dialog showing who sent the message. -->
+    <string name="from_label">From\u000A</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="to_address_label">To\u000A</string>
+    <!-- Label in "Message details" dialog -->
+    <!-- Label in "Message details" dialog -->
+    <string name="sent_label">Sent\u000A</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="received_label">Received\u000A</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="saved_label">Saved\u000A</string>
+    <!-- Label in "Message details" dialog -->
+    <!-- Label in "Message details" dialog -->
+    <!-- Label in "Message details" dialog -->
+    <!-- "Priority" value in "Message details" dialog -->
+    <!-- "Priority" value in "Message details" dialog -->
+    <!-- "Priority" value in "Message details" dialog -->
+    <!-- Label in "Message details" dialog -->
+    <!-- Label in "Message details" dialog -->
+    <string name="error_code_label">Error code\u000A</string>
+
+    <!-- Tag appearing on conversations in the conversation list that contain a draft message -->
+    <string name="has_draft">Draft</string>
+    <!-- In conversation list items, this is the separator between a contact's name and the draft stamp [CHAR LIMIT=5] -->
+    <string name="draft_separator">,\u0020</string>
+    <!-- In conversation list items, this comes after the receipient's name and contains the number of messages in the thread [CHAR LIMIT=5] -->
+
+    <!-- For debugging: Dialog box text indicating there's a situation where data has unexpectedly changed -->
+    <!-- This is the dialog title for the "Select link" dialog, shown when the user clicks on a
+    chat in the chat history view if there are links in the chat message. The dialog displays the
+    links if there are any -->
+
+    <!-- In message list items, this string builds the timestamp line when the message is in a group [CHAR LIMIT=NONE] -->
+    <string name="message_timestamp_format"><xliff:g example="Fred Flinstone" id="string">%1$s</xliff:g>\u0020-\u0020<xliff:g example="9:39AM" id="string">%2$s</xliff:g></string>
+
+    <!--Message sending status: sending-->
+    <string name="status_sending">Sending…</string>
+    <!--Message sending status: failed-->
+    <!--<string name="status_failed">Failed. Tap to retry</string>-->
+
+    <!-- Delivery Report Activity -->
+    <!-- Status in "Report" window -->
+    <string name="status_none">(None)</string>
+    <!-- Status in "Report" window -->
+    <string name="status_pending">Pending</string>
+    <!-- Status in "Report" window -->
+    <!-- Status in "Report" window -->
+    <string name="status_received">Received</string>
+    <!-- Status in "Report" window -->
+    <string name="status_failed">Failed. Tap for options</string>
+    <!-- Status in "Report" window -->
+    <!-- Status in "Report" window -->
+    <!-- Label in "Report" window -->
+    <string name="recipient_label">Recipient:\u0020</string>
+    <!-- Label in "Report" window -->
+    <string name="status_label">Status:\u0020</string>
+    <!-- Label in "Report" window [CHAR LIMIT=50]-->
+    <string name="delivered_label">Delivered:\u0020</string>
+
+
+    <!-- Confirm Delete -->
+    <!-- Delete confirmation dialog title -->
+    <string name="confirm_dialog_title">Delete?</string>
+    <!-- Delete confirmation dialog title for locked messages -->
+    <!-- This message is displayed in a confirmation dialog when the user selects one or more
+         conversations and then taps the "Delete" button. -->
+    <plurals name="confirm_delete_conversation">
+        <!-- Case of 1 result. -->
+        <item quantity="one">One conversation will be deleted.</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other"><xliff:g example="15" id="number">%1$s</xliff:g> conversations will be deleted.</item>
+    </plurals>
+    <!-- Delete all threads confirmation dialog message -->
+    <string name="confirm_delete_all_conversations">All threads will be deleted.</string>
+    <!-- Delete message confirmation dialog message -->
+    <string name="confirm_delete_message">The message will be deleted.</string>
+    <!-- Delete message confirmation dialog message for a locked message -->
+    <string name="confirm_delete_locked_message">Delete this locked message?</string>
+    <!-- Delete all the messages on the SIM dialog message -->
+    <!-- Delete the selected message on the SIM dialog message -->
+    <!-- Delete unlocked checkbox title -->
+    <string name="delete_unlocked">Delete locked messages</string>
+    <!-- Delete button title -->
+    <string name="delete">Delete</string>
+    <!-- More button title -->
+    <!-- More button summary -->
+    <!-- Action bar mode title when multi-selecting conversations -->
+    <!-- Show this in the middle of the main activity when there are no conversations [CHAR LIMIT=none] -->
+    <!-- Show this in the middle of the main activity when loading conversations [CHAR LIMIT=none] -->
+    <!-- Tells the user that QKSMS isn't the default SMS app -->
+    <!-- Tells the user they need to set QKSMS as the default app in order to use this feature -->
+    <!-- Tells the user they need to set QKSMS as the default messaging app in order to mark messages as read -->
+    <string name="not_default_mark_read">QKSMS must be your SMS app to mark messages read</string>
+    <!-- Tells the user they need to set QKSMS as the default messaging app in order to mark messages as unread -->
+    <string name="not_default_mark_unread">QKSMS must be your SMS app to mark messages unread</string>
+    <!-- Tells the user they need to set QKSMS as the default messaging app in order to send messages -->
+    <string name="not_default_delete">QKSMS must be your SMS app to delete messages</string>
+    <!-- Tells the user they need to set QKSMS as the default messaging app in order to delete messages -->
+    <string name="not_default_send">QKSMS must be your SMS app to send messages</string>
+    <!-- Tells the user they should set QKSMS as the default messaging app -->
+    <string name="not_default_first">Some things won\'t work until QKSMS is the default SMS app</string>
+    <string name="delayed_messaging_info">Delayed messaging allows you to cancel messages before they send. Change the default behavior and more in Settings</string>
+    <string name="delayed_duration_bounds_error">Duration must be between 1 and 30 seconds</string>
+
+    <string name="dialog_conversation_details_title">Conversation details</string>
+    <string name="dialog_conversation_details_last_message_date">Last message date</string>
+    <string name="dialog_conversation_details_message_count">Message count</string>
+    <string name="dialog_conversation_details_recipients">Recipients (%s)</string>
+
+    <!--Toast shown when a draft is saved-->
+    <string name="toast_draft">Saved draft</string>
+    <!--Toast shown when a message fails to send-->
+    <string name="toast_message_failure">Message failed to send</string>
+    <!--Toast shown when text is copied to the clipboard-->
+    <string name="toast_copy_text">Copied text to clipboard</string>
+    <!--Toast shown when Google Play Services is not available for purchasing a product-->
+    <string name="toast_billing_not_available">Purchase requires Google Play Store (billing) on your Android</string>
+
+    <!--Menu option to mute conversation-->
+    <string name="menu_block_conversations">Block conversations</string>
+    <string name="menu_unblock_conversations">Unblock conversations</string>
+    <string name="menu_messages">Messages</string>
+    <string name="menu_blocked">Blocked</string>
+    <string name="menu_view_details">View details</string>
+    <string name="menu_mark_read">Mark read</string>
+    <string name="menu_mark_unread">Mark unread</string>
+    <string name="failed_message_title">Failed message options</string>
+    <!--Toast shown to tell the user that they don't have a photo attachments app, and suggests that they download one-->
+    <string name="error_no_recipients">Select some contacts to send this message to!</string>
+
+
+    <string name="color_swatch_description">Color %1$d</string>
+    <string name="color_swatch_description_selected">Color %1$d selected</string>
+
+    <string name="message_not_delivered">Message Not Delivered</string>
+
+    <string name="date_yesterday">Yesterday</string>
+    <string name="hint_no_messages">No messages yet.\nClick the + to send one!</string>
+
+    <string-array name="resend_menu">
+        <item>Resend</item>
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string-array name="background_titles">
+        <item>Material Light</item>
+        <item>Material Dark</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="notification_private_options">
+        <item>Show all</item>
+        <item>Hide message</item>
+        <item>Hide message and sender</item>
+    </string-array>
+
+
+    <string name="title_block_word_extreme">Blacklist a word (Extreme)</string>
+    <string name="pref_block_word">Blacklist Words (Safe)</string>
+    <string name="pref_block_word_summary">Add more words to blacklist. Click on an item to remove.</string>
+    <string name="pref_block_word_extreme">Blacklist Words (Extreme)</string>
+    <string name="pref_block_word_extreme_summary">Add more words to blacklist. does NOT check word boundary.</string>
+
+
+    <string name="title_block_pattern">Block a pattern</string>
+    <string name="pref_block_pattern">Patterns (Advanced!)</string>
+    <string name="pref_block_pattern_summary">Add more regex patterns to blacklist. Follows java regex rules. Click on an item to remove (advanced users only!)</string>
+    <string name="invalid_pattern">Invalid pattern! pattern must follow java regex rules.</string>
+    <string name="title_block_word">Blacklist a word</string>
+    <string name="pref_block_skip_contact">Never block contacts</string>
+    <string name="pref_block_skip_contact_summary">Never block messages when they are received from known contacts</string>
+
+
+    <string name="title_block_number_prefix">Block a number prefix</string>
+    <string name="pref_block_number_prefix">Block number prefix</string>
+    <string name="pref_block_number_prefix_summary">Add more number prefixes to blacklist. Click on an item to remove. Any message received from a number whose prefix is in this list is blocked.</string>
+    <string name="invalid_number_prefix">Invalid number prefix! number prefix was added to the list but does not seem to be a valid number.</string>
+    <string name="compose">compose</string>
+    <string name="timer">timer</string>
+    <string name="foff">foff</string>
+    <string name="EMPTY_STRING" />
+    <string name="more_options">More options</string>
+    <string name="done">Done</string>
+
+
+</resources>
