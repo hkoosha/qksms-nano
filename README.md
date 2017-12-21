@@ -2,6 +2,8 @@
 Extremely stripped down version of moezbhatti/qksms plus message blocking by 
 word patterns, numner prefix and more.
 
+And yes, it's missing MMS functionality altogether.
+
 ## Important!!
 
 This project has a fatal bug on android 8 (and probably 7): it does not ask for 
